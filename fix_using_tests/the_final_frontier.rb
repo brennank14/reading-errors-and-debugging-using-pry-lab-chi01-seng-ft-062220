@@ -2,7 +2,7 @@
 require 'pry'
 
 def generate_star_date
-  potato = (rand(100000) + 400000) / 10.0
+  (rand(100000) + 400000) / 10.0
 end
 
 
@@ -12,5 +12,5 @@ end
 
 def engage
   date = generate_star_date
-  puts state_log(date)
+  state_log(date)
 end
